@@ -9,21 +9,21 @@
 ### <div align="center">Wordcloud</div>
 
 <p align="center">
-  <img width="600" height="400" src="wordcloud.png">
+  <img width="600" height="400" src="https://user-images.githubusercontent.com/69398922/128652013-97455254-439f-4739-b49c-91d64563c052.png">
 </p>
 <hr>
 
 ### <div align="center">Frequency Plot</div>
 
 <p align="center">
-  <img width="700" height="430" src="freq.gif">
+  <img width="700" height="430" src="https://user-images.githubusercontent.com/69398922/128652091-d8bf2a6f-7417-4985-ae58-b1a5899e46c2.gif">
 </p>
 <hr>
 
 ### <div align="center">Network Graph</div>
 
 <p align="center">
-  <img width="700" height="430" src="degree.gif">
+  <img width="700" height="430" src="https://user-images.githubusercontent.com/69398922/128652271-d43b1569-3de4-47bc-ad76-96418b80ad88.gif">
 </p>
 <hr>
 
