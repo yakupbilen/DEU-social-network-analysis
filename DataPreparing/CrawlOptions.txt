@@ -1,0 +1,84 @@
+allowed_domains = ['www.deu.edu.tr']
+    start_urls = ['https://www.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=[ "https://debis.deu.edu.tr/+", "https://www.deu.edu.tr/engelsiz/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]
+
+
+allowed_domains = ['fen.deu.edu.tr']
+    start_urls = ['https://fen.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+", "https://fen.deu.edu.tr/en/+", "https://fen.deu.edu.tr/duyurular/+"],
+                           deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]
+
+
+allowed_domains = ['bef.deu.edu.tr']
+    start_urls = ['https://bef.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+","https://bef.deu.edu.tr/en/+","https://bef.deu.edu.tr/duyurular/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]  
+
+
+allowed_domains = ['denizcilik.deu.edu.tr']
+    start_urls = ['https://denizcilik.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+","https://denizcilik.deu.edu.tr/duyurular/+","https://denizcilik.deu.edu.tr/en/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)] 
+
+
+allowed_domains = ['edebiyat.deu.edu.tr']
+    start_urls = ['https://edebiyat.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://edebiyat.deu.edu.tr/en/+",
+                                 "https://edebiyat.deu.edu.tr/duyurular/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]
+
+
+allowed_domains = ['gsf.deu.edu.tr']
+    start_urls = ['https://gsf.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://gsf.deu.edu.tr/en/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)] 
+
+
+allowed_domains = ['hukuk.deu.edu.tr']
+    start_urls = ['https://hukuk.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://hukuk.deu.edu.tr/en/+",
+                                 "https://hukuk.deu.edu.tr/duyurular/+",
+                                 "https://hukuk.deu.edu.tr/events-page/+"], deny_domains="https://debis.deu.edu.tr"),
+             callback='parse_item', follow=True)]
+
+
+allowed_domains = ['mimarlik.deu.edu.tr']
+    start_urls = ['https://mimarlik.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://mimarlik.deu.edu.tr/en/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]
+
+
+allowed_domains = ['sporbilimleri.deu.edu.tr']
+    start_urls = ['https://sporbilimleri.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://sporbilimleri.deu.edu.tr/duyurular/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]  
+
+
+allowed_domains = ['tip.deu.edu.tr']
+    start_urls = ['https://tip.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://tip.deu.edu.tr/en/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]
+
+
+allowed_domains = ['turizm.deu.edu.tr']
+    start_urls = ['https://turizm.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+",
+                                 "https://turizm.deu.edu.tr/en/+",
+                                 "https://turizm.deu.edu.tr/duyurular/+"], deny_domains="https://debis.deu.edu.tr"), callback='parse_item', follow=True)]
+
+
+allowed_domains = ['csc.deu.edu.tr']
+    start_urls = ['https://csc.deu.edu.tr']
+    rules = [
+        Rule(LinkExtractor(deny=["https://debis.deu.edu.tr+"], deny_domains="https://debis.deu.edu.tr"),
+             callback='parse_item', follow=True)]
