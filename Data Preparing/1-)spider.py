@@ -1,4 +1,4 @@
-# You should run this py file from command line from right location (scrapy runspider 1-spider.py)
+# You should run this py file from command line from right location (scrapy runspider 1-)spider.py)
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 
